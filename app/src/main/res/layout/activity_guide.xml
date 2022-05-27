@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:stretchColumns="*"
+    tools:context="GuideActivity">
+
+    <TableRow>
+        <TextView android:text="운영시간"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="평일"/>
+        <TextView android:text="10:00 ~ 22:00"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="휴일"/>
+        <TextView android:text="10:00 ~ 22:00"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="점심시간"/>
+        <TextView android:text="12:00 ~ 13:00"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="오시는 길" android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico01"/>
+        <TextView android:text="서울시 광진구 ..."/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico02"/>
+        <TextView android:text="지하철 호선..."/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico03"/>
+        <TextView android:text="버스 번 ..."/>
+    </TableRow>
+
+</TableLayout>
